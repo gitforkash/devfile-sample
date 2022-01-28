@@ -55,7 +55,7 @@ app.get('/', (req, res) => {
     }
   // Use req.log (a `pino` instance) to log JSON:	
   req.log.info({message: 'Hello from Node.js Starter Application from Cluster2. Changed Https to Http!'});		
-  res.send('Hello from Node.js Starter Application from Cluster2!');	
+  res.send('Hello from Node.js Starter Application from Cluster2! Changed Https to Http');	
 });	
 
 app.get('*', (req, res) => {
